@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/23 10:02:35.000.451,=rtl.dcp</Transaction>
+    <Transaction>2021/10/23 10:05:40.000.765,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\Fontes\Google4D\google-services-management\GoogleServicesManagement4D.dproj</Transaction>
+    <Transaction>2021/10/23 10:34:06.000.893,D:\Desenvolvimento\Fontes\Google4D\google-services-management\GoogleServicesManagement4D.dproj=D:\Desenvolvimento\Fontes\Google4D\google-services-management\ServicesManagementGoogle4D.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

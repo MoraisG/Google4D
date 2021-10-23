@@ -1,0 +1,16 @@
+unit Utils.Test;
+
+interface
+
+uses
+  Winapi.Windows;
+function GetEnviroment: String;
+
+implementation
+
+function GetEnviroment: String;
+begin
+
+end;
+
+end.

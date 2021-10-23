@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AABB8937-31F4-44C9-A5BD-3ACB5AA6689B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="google-services-management\ServicesManagementGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="google-credentials\CrendentialsGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="google-auth\OAuthGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="google-rtti\RTTIGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="samples\google-rtti\SampleRTTIGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="samples\google-auth\SampleGoogleAuth4D.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ServicesManagementGoogle4D">
+        <MSBuild Projects="google-services-management\ServicesManagementGoogle4D.dproj"/>
+    </Target>
+    <Target Name="ServicesManagementGoogle4D:Clean">
+        <MSBuild Projects="google-services-management\ServicesManagementGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServicesManagementGoogle4D:Make">
+        <MSBuild Projects="google-services-management\ServicesManagementGoogle4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CrendentialsGoogle4D">
+        <MSBuild Projects="google-credentials\CrendentialsGoogle4D.dproj"/>
+    </Target>
+    <Target Name="CrendentialsGoogle4D:Clean">
+        <MSBuild Projects="google-credentials\CrendentialsGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CrendentialsGoogle4D:Make">
+        <MSBuild Projects="google-credentials\CrendentialsGoogle4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="OAuthGoogle4D">
+        <MSBuild Projects="google-auth\OAuthGoogle4D.dproj"/>
+    </Target>
+    <Target Name="OAuthGoogle4D:Clean">
+        <MSBuild Projects="google-auth\OAuthGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="OAuthGoogle4D:Make">
+        <MSBuild Projects="google-auth\OAuthGoogle4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RTTIGoogle4D">
+        <MSBuild Projects="google-rtti\RTTIGoogle4D.dproj"/>
+    </Target>
+    <Target Name="RTTIGoogle4D:Clean">
+        <MSBuild Projects="google-rtti\RTTIGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RTTIGoogle4D:Make">
+        <MSBuild Projects="google-rtti\RTTIGoogle4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleRTTIGoogle4D">
+        <MSBuild Projects="samples\google-rtti\SampleRTTIGoogle4D.dproj"/>
+    </Target>
+    <Target Name="SampleRTTIGoogle4D:Clean">
+        <MSBuild Projects="samples\google-rtti\SampleRTTIGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleRTTIGoogle4D:Make">
+        <MSBuild Projects="samples\google-rtti\SampleRTTIGoogle4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleGoogleAuth4D">
+        <MSBuild Projects="samples\google-auth\SampleGoogleAuth4D.dproj"/>
+    </Target>
+    <Target Name="SampleGoogleAuth4D:Clean">
+        <MSBuild Projects="samples\google-auth\SampleGoogleAuth4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleGoogleAuth4D:Make">
+        <MSBuild Projects="samples\google-auth\SampleGoogleAuth4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ServicesManagementGoogle4D;CrendentialsGoogle4D;OAuthGoogle4D;RTTIGoogle4D;SampleRTTIGoogle4D;SampleGoogleAuth4D"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ServicesManagementGoogle4D:Clean;CrendentialsGoogle4D:Clean;OAuthGoogle4D:Clean;RTTIGoogle4D:Clean;SampleRTTIGoogle4D:Clean;SampleGoogleAuth4D:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ServicesManagementGoogle4D:Make;CrendentialsGoogle4D:Make;OAuthGoogle4D:Make;RTTIGoogle4D:Make;SampleRTTIGoogle4D:Make;SampleGoogleAuth4D:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,22 @@
+program SampleRTTIGoogle4D;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  Adapters.RTTIGoogle4D,
+  Credential in 'src\Credential.pas';
+var
+  FCredential : IServiceAccountCredential;
+begin
+  try
+    FCredential := TRTTIGoogle4D<IServiceAccountCredential>.New.AsInstance;
+    FCredential.SetType('1221545454545');
+    Writeln(FCredential.GetType);
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

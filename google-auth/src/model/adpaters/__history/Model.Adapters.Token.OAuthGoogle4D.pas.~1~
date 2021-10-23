@@ -1,0 +1,7 @@
+unit Model.Adapters.Token.OAuthGoogle4D;
+
+interface
+
+implementation
+
+end.

@@ -1,0 +1,15 @@
+unit Ports.RTTIGoogle4D;
+
+interface
+
+type
+
+  IRTTIGoogle4D<T: IInterface> = interface
+    ['{D79057B7-A934-4DA9-9626-8E4EB3795165}']
+    function JsonToObject(AValue: String): T;
+    function AsInstance: T;
+  end;
+
+implementation
+
+end.

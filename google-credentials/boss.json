@@ -1,0 +1,11 @@
+{
+	"name": "google-credentials",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/paolo-rossi/delphi-jose-jwt": "^v3.0.2"
+	}
+}

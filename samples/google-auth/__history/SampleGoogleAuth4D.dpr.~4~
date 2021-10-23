@@ -1,0 +1,22 @@
+program SampleGoogleAuth4D;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  Model.Adapters.OAuth2.OAuthGoogle4D;
+
+begin
+  try
+    TOAuth2Google4D.New.Credentials;
+    Readln();
+  except
+    on E: Exception do
+    begin
+      Writeln(E.ClassName, ': ', E.Message);
+      Readln();
+    end;
+  end;
+end.

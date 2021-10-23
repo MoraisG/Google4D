@@ -1,0 +1,14 @@
+unit Ports.RTTIGoogle4D;
+
+interface
+
+type
+
+  IRTTIGoogle4D<T: IInteface> = interface
+    ['{D79057B7-A934-4DA9-9626-8E4EB3795165}']
+    function GetInstance: T;
+  end;
+
+implementation
+
+end.

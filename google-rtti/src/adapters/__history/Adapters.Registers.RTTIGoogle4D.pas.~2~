@@ -1,0 +1,29 @@
+unit Adapters.Registers.RTTIGoogle4D;
+
+interface
+
+uses System.Generics.Collections;
+
+Type
+  TRegisterClass = class
+  private
+    FRegister: TDictionary<TGUID, TClass>;
+    class procedure RegisterClass(AGUID: TGUID; AClass: TClass);
+    class function GetClass(AGUID: TGUID): TClass;
+  end;
+
+implementation
+
+{ TRegisterClass }
+
+class function TRegisterClass.GetClass(AGUID: TGUID): TClass;
+begin
+
+end;
+
+class procedure TRegisterClass.RegisterClass(AGUID: TGUID; AClass: TClass);
+begin
+
+end;
+
+end.

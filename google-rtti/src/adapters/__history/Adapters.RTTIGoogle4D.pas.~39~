@@ -1,0 +1,70 @@
+unit Adapters.RTTIGoogle4D;
+
+interface
+
+uses
+  System.Json,
+  Ports.RTTIGoogle4D,
+  System.RTTI;
+
+type
+
+  TRTTIGoogle4D<T: IInterface> = class(TInterfacedObject, IRTTIGoogle4D<T>)
+  private
+    FContext: TRttiContext;
+    function GetClass: TClass;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New: IRTTIGoogle4D<T>;
+    function AsInstance: T;
+    function JsonToObject(AValue: String): T;
+  end;
+
+implementation
+
+uses
+  System.SysUtils,
+  Adapters.Registers.RTTIGoogle4D,
+  Types.Attributes.RTTIGoogle4D;
+{ TRTTIGoogle4D<T> }
+
+constructor TRTTIGoogle4D<T>.Create;
+begin
+  FContext := TRttiContext.Create;
+end;
+
+destructor TRTTIGoogle4D<T>.Destroy;
+begin
+  FContext.Free;
+  inherited;
+end;
+
+function TRTTIGoogle4D<T>.GetClass: TClass;
+begin
+  Result := TRegisterClass.GetClass<T>;
+end;
+
+function TRTTIGoogle4D<T>.AsInstance: T;
+var
+  LType: TRttiType;
+  LMethods: TRttiMethod;
+  LAttributes: TCustomAttribute;
+begin
+  LType := FContext.GetType(GetClass);
+
+  for LMethods in LType.GetDeclaredMethods do
+    for LAttributes in LMethods.GetAttributes do
+      if LAttributes is New__ then
+        Result := LMethods.Invoke(GetClass, []).AsType<T>;
+
+  if Result = nil then
+    raise Exception.Create('O objeto não foi instanciado');
+end;
+
+class function TRTTIGoogle4D<T>.New: IRTTIGoogle4D<T>;
+begin
+  Result := Self.Create;
+end;
+
+end.

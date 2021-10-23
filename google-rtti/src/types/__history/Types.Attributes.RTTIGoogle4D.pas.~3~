@@ -1,0 +1,35 @@
+unit Types.Attributes.RTTIGoogle4D;
+
+interface
+
+type
+  New__ = class(TCustomAttribute)
+  private
+  public
+    constructor Create;
+    destructor Destroy; override;
+  end;
+
+  JsonField = class(TCustomAttribute)
+    public
+    constructor Create(AName : String);
+    destructor Destroy;override;
+    property Nome : String;
+  end;
+
+implementation
+
+{ New__ }
+
+constructor New__.Create;
+begin
+
+end;
+
+destructor New__.Destroy;
+begin
+
+  inherited;
+end;
+
+end.

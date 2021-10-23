@@ -1,0 +1,16 @@
+unit Model.Ports.OAuthGoogle4D;
+
+interface
+
+type
+
+  IServiceAccountCredentialsOAuth = interface
+    ['{1BB3D440-F2CB-4B5E-B127-F459D4263EBE}']
+    function Credential : IServiceAccountCredentialsOAuth;
+    protected
+      PROCEDURE TESTE;
+  end;
+
+implementation
+
+end.

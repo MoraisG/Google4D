@@ -1,0 +1,62 @@
+unit Model.Adapters.OAuth2.OAuthGoogle4D;
+
+interface
+
+uses
+  Model.Ports.OAuthGoogle4D;
+
+type
+
+  TOAuth2Google4D = class(TInterfacedObject, ICredentialsOAuth)
+  private
+    FSubject: String;
+
+    FOAuth2Actions: IOAuthActions;
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New: ICredentialsOAuth;
+    function Credentials: ICredentialsOAuth;
+    function CredentialsDelegated(ASubject: String): ICredentialsOAuth;
+    function SetToken(AValue: IOAuthJWT): ICredentialsOAuth;
+  end;
+
+implementation
+
+{ TOAuth2Google4D }
+
+constructor TOAuth2Google4D.Create;
+begin
+
+end;
+
+function TOAuth2Google4D.Credentials: ICredentialsOAuth;
+begin
+  Result := Self;
+  FOAuth2Actions.ParseServiceAccountCredentials;
+end;
+
+function TOAuth2Google4D.CredentialsDelegated(ASubject: String)
+  : ICredentialsOAuth;
+begin
+  Result := Self;
+  FSubject := ASubject;
+end;
+
+destructor TOAuth2Google4D.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TOAuth2Google4D.New: ICredentialsOAuth;
+begin
+  Result := Self.Create;
+end;
+
+function TOAuth2Google4D.SetToken(AValue: IOAuthJWT): ICredentialsOAuth;
+begin
+  Result := Self;
+end;
+
+end.

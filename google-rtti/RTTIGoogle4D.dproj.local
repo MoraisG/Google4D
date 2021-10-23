@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/23 13:29:10.000.737,=rtl.dcp</Transaction>
+    <Transaction>2021/10/23 13:30:01.000.714,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\Fontes\Google4D\google-rtti\RTTIGoogle4D.dproj</Transaction>
+    <Transaction>2021/10/23 13:30:07.000.543,=D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 13:30:53.000.289,D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-rtti\src\ports\Ports.RTTIGoogle4D.pas</Transaction>
+    <Transaction>2021/10/23 13:32:26.000.608,=D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 13:32:56.000.208,D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-rtti\src\adapters\Adapters.RTTIGoogle4D.pas</Transaction>
+    <Transaction>2021/10/23 14:34:28.000.965,=D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 14:34:45.000.409,D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-rtti\src\adapters\Adapters.Registers.RTTIGoogle4D.pas</Transaction>
+    <Transaction>2021/10/23 14:44:17.000.421,=D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas</Transaction>
+    <Transaction>2021/10/23 14:44:40.000.172,D:\Desenvolvimento\Fontes\Google4D\google-rtti\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-rtti\src\types\Types.Attributes.RTTIGoogle4D.pas</Transaction>
+  </Transactions>
+</BorlandProject>
