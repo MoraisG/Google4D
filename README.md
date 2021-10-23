@@ -1,2 +1,2 @@
 # Google4D
- Google's client librarie for Delphi
+ Google's client library for Delphi
