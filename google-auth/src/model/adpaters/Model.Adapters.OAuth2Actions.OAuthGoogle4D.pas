@@ -35,7 +35,8 @@ implementation
 uses
   Winapi.Windows,
   System.SysUtils,
-  System.Classes;
+  System.Classes,
+  Adapters.RTTIGoogle4D;
 { TOauth2ActionGoogle4D }
 
 function TOauth2ActionGoogle4D.AssertionComponentsFromInfo: IOAuthActions;
@@ -94,7 +95,7 @@ begin
   LFile := TStringList.Create;
   try
     LFile.LoadFromFile(FPathJson);
-    FServiceAccount := TJson.JsonToObject<TServiceAccountCrendential>(LFile.Text, [joDateFormatUnix]);
+    FServiceAccount := TRTTIGoogle4D<IServiceAccountCredential>.New.JsonToObject(LFile.Text);
   finally
     LFile.Free;
   end;
