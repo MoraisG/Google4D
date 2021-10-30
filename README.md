@@ -29,7 +29,7 @@ interface
 ..
 implemetation
 uses
- Adapters.GoogleCalendar4D;
+ Model.Adapters.OAuth2.OAuthGoogle4D;
 var
  LToken : String; 
 begin
