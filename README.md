@@ -4,7 +4,7 @@
 > ## **Target**
 > ### O Google4D é uma biblioteca que permite o usuário que programa em Delphi consumir as api's da Google de forma simples e segura. Este é um projeto de longo prazo que permitirá a comunidade Delphi contribuir e melhorar o código, seguindo de perto a documentação disponibilizada pela Google.
 
-# GoogleOAuth24D
+# OAuth2Google4D
 
 > ### A Google permite várias formas de autenticação como as que se segue:
 
