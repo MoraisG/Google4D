@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/30 10:26:17.000.031,=rtl.dcp</Transaction>
+    <Transaction>2021/10/30 10:27:08.000.098,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\Fontes\Google4D\google-http\GoogleHTTP4D.dproj</Transaction>
+    <Transaction>2021/10/30 10:27:36.000.480,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas</Transaction>
+    <Transaction>2021/10/30 10:27:36.000.374,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.Http.Core.Contracts.pas</Transaction>
+    <Transaction>2021/10/30 10:27:42.000.139,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.Params.pas</Transaction>
+    <Transaction>2021/10/30 10:28:52.000.107,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.Http.Core.Contracts.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/10/30 10:29:44.000.815,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Net.Google4D.pas</Transaction>
+    <Transaction>2021/10/30 10:30:20.000.585,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.Params.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Params.Google4D.pas</Transaction>
+    <Transaction>2021/10/30 10:30:38.000.414,D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Ports.HTTP.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/10/30 10:35:09.000.525,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 10:35:27.000.315,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\types\Types.HTTP.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/10/30 10:38:16.000.779,=IndySystem.dcp</Transaction>
+    <Transaction>2021/10/30 10:38:16.000.790,=IndyProtocols.dcp</Transaction>
+    <Transaction>2021/10/30 10:38:16.000.815,=IndyCore.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

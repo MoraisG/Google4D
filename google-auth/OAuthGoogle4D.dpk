@@ -28,13 +28,19 @@ package OAuthGoogle4D;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  IndySystem,
+  IndyProtocols,
+  IndyCore;
 
 contains
   Model.ServiceAccountCredential.OAuthGoogle4D in 'src\model\dtos\Model.ServiceAccountCredential.OAuthGoogle4D.pas',
   Model.Ports.OAuthGoogle4D in 'src\model\ports\Model.Ports.OAuthGoogle4D.pas',
   Model.Adapters.OAuth2.OAuthGoogle4D in 'src\model\adpaters\Model.Adapters.OAuth2.OAuthGoogle4D.pas',
   Model.Adapters.OAuth2Actions.OAuthGoogle4D in 'src\model\adpaters\Model.Adapters.OAuth2Actions.OAuthGoogle4D.pas',
-  Model.Adapters.Token.OAuthGoogle4D in 'src\model\adpaters\Model.Adapters.Token.OAuthGoogle4D.pas';
+  Model.Adapters.Token.OAuthGoogle4D in 'src\model\adpaters\Model.Adapters.Token.OAuthGoogle4D.pas',
+  Types.JWT.OAuthGoogle4D in 'src\types\jwt\Types.JWT.OAuthGoogle4D.pas',
+  Types.Auth.OAuth2Google4D in 'src\types\auth\Types.Auth.OAuth2Google4D.pas',
+  Model.AccessToken.OAuthGoogle4D in 'src\model\dtos\Model.AccessToken.OAuthGoogle4D.pas';
 
 end.

@@ -19,7 +19,7 @@ type
     function Credentials: ICredentialsOAuth;
     function CredentialsDelegated(ASubject: String): ICredentialsOAuth;
     function GetScopes: String;
-    function SetToken(AValue: IOAuthJWT): ICredentialsOAuth;
+    function GetToken: IOAuthJWT;
     function SetScope(AValue: String): ICredentialsOAuth;
   end;
 
@@ -45,6 +45,7 @@ function TOAuth2Google4D.CredentialsDelegated(ASubject: String)
 begin
   Result := Self;
   FSubject := ASubject;
+  FOAuth2Actions.ParseServiceAccountCredentialsDelegated;
 end;
 
 destructor TOAuth2Google4D.Destroy;
@@ -69,9 +70,9 @@ begin
   FScopes := AValue;
 end;
 
-function TOAuth2Google4D.SetToken(AValue: IOAuthJWT): ICredentialsOAuth;
+function TOAuth2Google4D.GetToken: IOAuthJWT;
 begin
-  Result := Self;
+  Result := FOAuth2Actions.RequestAuth.Auth;
 end;
 
 end.

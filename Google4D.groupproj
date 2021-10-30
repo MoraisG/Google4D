@@ -21,6 +21,15 @@
         <Projects Include="samples\google-auth\SampleGoogleAuth4D.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="google-http\GoogleHTTP4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="google-calendar\GoogleCalendar4D.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="samples\google-calendar\vcl\VclApp.CalendarGoogle4D.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -83,14 +92,41 @@
     <Target Name="SampleGoogleAuth4D:Make">
         <MSBuild Projects="samples\google-auth\SampleGoogleAuth4D.dproj" Targets="Make"/>
     </Target>
+    <Target Name="GoogleHTTP4D">
+        <MSBuild Projects="google-http\GoogleHTTP4D.dproj"/>
+    </Target>
+    <Target Name="GoogleHTTP4D:Clean">
+        <MSBuild Projects="google-http\GoogleHTTP4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GoogleHTTP4D:Make">
+        <MSBuild Projects="google-http\GoogleHTTP4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="GoogleCalendar4D">
+        <MSBuild Projects="google-calendar\GoogleCalendar4D.dproj"/>
+    </Target>
+    <Target Name="GoogleCalendar4D:Clean">
+        <MSBuild Projects="google-calendar\GoogleCalendar4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="GoogleCalendar4D:Make">
+        <MSBuild Projects="google-calendar\GoogleCalendar4D.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VclApp_CalendarGoogle4D">
+        <MSBuild Projects="samples\google-calendar\vcl\VclApp.CalendarGoogle4D.dproj"/>
+    </Target>
+    <Target Name="VclApp_CalendarGoogle4D:Clean">
+        <MSBuild Projects="samples\google-calendar\vcl\VclApp.CalendarGoogle4D.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VclApp_CalendarGoogle4D:Make">
+        <MSBuild Projects="samples\google-calendar\vcl\VclApp.CalendarGoogle4D.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ServicesManagementGoogle4D;CrendentialsGoogle4D;OAuthGoogle4D;RTTIGoogle4D;SampleRTTIGoogle4D;SampleGoogleAuth4D"/>
+        <CallTarget Targets="ServicesManagementGoogle4D;CrendentialsGoogle4D;OAuthGoogle4D;RTTIGoogle4D;SampleRTTIGoogle4D;SampleGoogleAuth4D;GoogleHTTP4D;GoogleCalendar4D;VclApp_CalendarGoogle4D"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ServicesManagementGoogle4D:Clean;CrendentialsGoogle4D:Clean;OAuthGoogle4D:Clean;RTTIGoogle4D:Clean;SampleRTTIGoogle4D:Clean;SampleGoogleAuth4D:Clean"/>
+        <CallTarget Targets="ServicesManagementGoogle4D:Clean;CrendentialsGoogle4D:Clean;OAuthGoogle4D:Clean;RTTIGoogle4D:Clean;SampleRTTIGoogle4D:Clean;SampleGoogleAuth4D:Clean;GoogleHTTP4D:Clean;GoogleCalendar4D:Clean;VclApp_CalendarGoogle4D:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ServicesManagementGoogle4D:Make;CrendentialsGoogle4D:Make;OAuthGoogle4D:Make;RTTIGoogle4D:Make;SampleRTTIGoogle4D:Make;SampleGoogleAuth4D:Make"/>
+        <CallTarget Targets="ServicesManagementGoogle4D:Make;CrendentialsGoogle4D:Make;OAuthGoogle4D:Make;RTTIGoogle4D:Make;SampleRTTIGoogle4D:Make;SampleGoogleAuth4D:Make;GoogleHTTP4D:Make;GoogleCalendar4D:Make;VclApp_CalendarGoogle4D:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

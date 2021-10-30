@@ -28,6 +28,7 @@ uses
   System.SysUtils,
   Adapters.Registers.RTTIGoogle4D,
   Types.Attributes.RTTIGoogle4D;
+
 { TRTTIGoogle4D<T> }
 
 constructor TRTTIGoogle4D<T>.Create;
@@ -56,8 +57,11 @@ var
   LInterface: TRttiInterfaceType;
   LMethods: TRttiMethod;
   LAttributes: TCustomAttribute;
+  LParameter: TRttiParameter;
+  LGetFieldJson: Boolean;
 begin
   Result := Self.AsInstance;
+  LGetFieldJson := True;
   FJSON := TJSONObject.ParseJSONValue(AValue);
   LType := FContext.GetType(GetClass);
   LInstance := LType.AsInstance;
@@ -68,8 +72,27 @@ begin
       for LAttributes in LMethods.GetAttributes do
       begin
         if LAttributes is JsonField then
-          LMethods.Invoke(TValue.From<T>(Result),
-            [FJSON.GetValue<String>(JsonField(LAttributes).Nome)]);
+        begin
+          if JsonField(LAttributes).Required then
+            for LParameter in LMethods.GetParameters do
+            begin
+              case LParameter.ParamType.TypeKind of
+
+                tkInteger, tkInt64:
+                  LMethods.Invoke(TValue.From<T>(Result),
+                    [FJSON.GetValue<Integer>(JsonField(LAttributes).Nome)]);
+
+                tkChar, tkUstring, tkString, tkWideChar, tkWideString:
+                  LMethods.Invoke(TValue.From<T>(Result),
+                    [FJSON.GetValue<String>(JsonField(LAttributes).Nome)]);
+
+                tkFloat:
+                  LMethods.Invoke(TValue.From<T>(Result),
+                    [FJSON.GetValue<Double>(JsonField(LAttributes).Nome)]);
+
+              end;
+            end;
+        end;
       end;
     end;
   end;

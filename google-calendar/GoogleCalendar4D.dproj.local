@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/30 12:51:37.000.298,=rtl.dcp</Transaction>
+    <Transaction>2021/10/30 12:53:50.000.336,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\Fontes\Google4D\google-calendar\GoogleCalendar4D.dproj</Transaction>
+    <Transaction>2021/10/30 12:54:01.000.484,=D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 12:55:06.000.148,D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\types\Types.Scopes.GoogleCalendar4D.pas</Transaction>
+    <Transaction>2021/10/30 12:59:24.000.015,=D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 13:00:27.000.786,D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\ports\Ports.GoogleCalendar4D.pas</Transaction>
+    <Transaction>2021/10/30 13:05:51.000.316,=D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 13:06:11.000.996,D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\adapters\Adapters.Google4D.pas</Transaction>
+    <Transaction>2021/10/30 13:19:52.000.538,=D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 13:20:13.000.878,D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\types\Types.GoogleCalendar4D.pas</Transaction>
+    <Transaction>2021/10/30 13:51:49.000.171,D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\adapters\Adapters.Google4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\adapters\Adapters.GoogleCalendar4D.pas</Transaction>
+    <Transaction>2021/10/30 14:21:45.597,=IndySystem.dcp</Transaction>
+    <Transaction>2021/10/30 14:21:45.602,=IndyProtocols.dcp</Transaction>
+    <Transaction>2021/10/30 14:21:45.602,=IndyCore.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
