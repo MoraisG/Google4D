@@ -45,7 +45,7 @@ end;
 > > 3. [Google Calendar Example](https://github.com/MoraisG/Google4D/tree/main/samples/google-calendar/vcl)
 
 > ### To-do List
-> > [] Implementar api de IAM Credential
-> > [] Implementar OAuth2 WebServer Applications
-> > [] Implementar OAuth2 Installed applications
-> > [] Implementar API's Google Cloud
+> > - [ ] Implementar api de IAM Credential
+> > - [ ] Implementar OAuth2 WebServer Applications
+> > - [ ] Implementar OAuth2 Installed applications
+> > - [ ] Implementar API's Google Cloud
