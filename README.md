@@ -16,6 +16,10 @@
 
 > #### Para mais informações consulte a documentações da Google [OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
 
+> ### [Como funciona OAuth2 Server to Server](https://developers.google.com/identity/protocols/oauth2/service-account?hl=en)
+
+> > > ![Workflow OAuth2 Server to Server](https://github.com/MoraisG/Google4D/blob/main/images/oauth2-server-server.png)
+
 > ### Esta biblioteca por enquanto está habilitada para fazer requisições usando OAuth2 for Service accounts (Server to server applications).
 
 > > ### Como configurar (How setting)
