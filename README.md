@@ -25,8 +25,8 @@
 > > ### Como configurar (How setting)
 > > Create enviroment variable at path
 > > 1. [Como configurar a variável de ambiente](https://cloud.google.com/docs/authentication/getting-started#windows)
-> > 2. No seu código poderá realizar a seguinte chamada. 
-> > 2.1 Exemplo baseado no Google Calendar
+> > 2. No seu código poderá realizar a seguinte chamada
+> > 3. Exemplo baseado no Google Calendar
 
 ```pascal
 interface
