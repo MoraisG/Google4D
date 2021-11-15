@@ -11,7 +11,7 @@ type
   private
     FSubject: String;
     FScopes: String;
-    FOAuth2Actions: IOAuthActions;
+    FOAuth2Actions: IOAuthActions<IOAuth2ServiceAccount>;
   public
     constructor Create;
     destructor Destroy; override;
@@ -27,17 +27,17 @@ implementation
 
 { TOAuth2Google4D }
 
-uses Model.Adapters.OAuth2Actions.OAuthGoogle4D;
+uses Model.Adapters.OAuth2.ServerAccount.Actions.OAuthGoogle4D;
 
 constructor TOAuth2Google4D.Create;
 begin
-  FOAuth2Actions := TOauth2ActionGoogle4D.New(Self)
+  FOAuth2Actions := TOAuth2ServerAccountActionsGoogle4D.New(Self)
 end;
 
 function TOAuth2Google4D.Credentials: ICredentialsOAuth;
 begin
   Result := Self;
-  FOAuth2Actions.ParseServiceAccountCredentials;
+  FOAuth2Actions.Actions.ParseServiceAccountCredentials;
 end;
 
 function TOAuth2Google4D.CredentialsDelegated(ASubject: String)
@@ -45,7 +45,7 @@ function TOAuth2Google4D.CredentialsDelegated(ASubject: String)
 begin
   Result := Self;
   FSubject := ASubject;
-  FOAuth2Actions.ParseServiceAccountCredentialsDelegated;
+  FOAuth2Actions.Actions.ParseServiceAccountCredentialsDelegated;
 end;
 
 destructor TOAuth2Google4D.Destroy;
@@ -72,7 +72,7 @@ end;
 
 function TOAuth2Google4D.GetToken: IOAuthJWT;
 begin
-  Result := FOAuth2Actions.RequestAuth.Auth;
+  Result := FOAuth2Actions.RequestAuth.Actions.Auth;
 end;
 
 end.

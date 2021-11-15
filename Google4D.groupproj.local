@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021/10/23 10:05:53.000.146,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=D:\Desenvolvimento\Fontes\Google4D\Google4D.groupproj</Transaction>
+    <Transaction>2021/10/23 10:05:53.000.146,D:\Desenvolvimento\Fontes\Google4D\Google4D.groupproj=C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="D:\Desenvolvimento\Fontes\Google4D\samples\google-calendar\vcl\VclApp.CalendarGoogle4D.dproj"/>
+		<Projects ActiveProject="D:\Desenvolvimento\Fontes\Google4D\google-http\GoogleHTTP4D.dproj"/>
 	</Default.Personality>
 </BorlandProject>

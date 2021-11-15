@@ -2,18 +2,50 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/10/30 10:26:17.000.031,=rtl.dcp</Transaction>
-    <Transaction>2021/10/30 10:27:08.000.098,C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\Fontes\Google4D\google-http\GoogleHTTP4D.dproj</Transaction>
-    <Transaction>2021/10/30 10:27:36.000.480,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas</Transaction>
+    <Transaction>2021/10/30 10:27:08.000.098,D:\Desenvolvimento\Fontes\Google4D\google-http\GoogleHTTP4D.dproj=C:\Users\Gabriel e Alcione\OneDrive\Documentos\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
     <Transaction>2021/10/30 10:27:36.000.374,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.Http.Core.Contracts.pas</Transaction>
+    <Transaction>2021/10/30 10:27:36.000.480,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas</Transaction>
     <Transaction>2021/10/30 10:27:42.000.139,=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.Params.pas</Transaction>
-    <Transaction>2021/10/30 10:28:52.000.107,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.Http.Core.Contracts.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas</Transaction>
-    <Transaction>2021/10/30 10:29:44.000.815,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Net.Google4D.pas</Transaction>
-    <Transaction>2021/10/30 10:30:20.000.585,D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.Params.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Params.Google4D.pas</Transaction>
-    <Transaction>2021/10/30 10:30:38.000.414,D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Ports.HTTP.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/10/30 10:28:52.000.107,D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.Http.Core.Contracts.pas</Transaction>
+    <Transaction>2021/10/30 10:29:44.000.815,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Net.Google4D.pas=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.NetHttp.pas</Transaction>
+    <Transaction>2021/10/30 10:30:20.000.585,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\Adapters.HTTP.Params.Google4D.pas=D:\Desenvolvimento\Fontes\Banking4D\src\model\httpcore\Model.HTTP.Core.Params.pas</Transaction>
+    <Transaction>2021/10/30 10:30:38.000.414,D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Ports.HTTP.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Model.HTTP.Ports.GoogleHTTP4D.pas</Transaction>
     <Transaction>2021/10/30 10:35:09.000.525,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
-    <Transaction>2021/10/30 10:35:27.000.315,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\types\Types.HTTP.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/10/30 10:35:27.000.315,D:\Desenvolvimento\Fontes\Google4D\google-http\src\types\Types.HTTP.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
+    <Transaction>2021/10/30 10:38:16.000.815,=IndyCore.dcp</Transaction>
     <Transaction>2021/10/30 10:38:16.000.779,=IndySystem.dcp</Transaction>
     <Transaction>2021/10/30 10:38:16.000.790,=IndyProtocols.dcp</Transaction>
-    <Transaction>2021/10/30 10:38:16.000.815,=IndyCore.dcp</Transaction>
+    <Transaction>2021/11/06 22:18:39.000.521,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
+    <Transaction>2021/11/06 22:18:52.000.776,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\ports\Ports.Socket.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:23:07.000.209,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
+    <Transaction>2021/11/06 22:23:16.000.948,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\types\Types.Socket.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:46:54.000.417,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas</Transaction>
+    <Transaction>2021/11/06 22:46:57.000.437,=D:\Desenvolvimento\Fontes\Google4D\google-http\Unit2.pas</Transaction>
+    <Transaction>2021/11/06 22:47:38.000.323,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit2.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Listenes.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:47:55.000.429,D:\Desenvolvimento\Fontes\Google4D\google-http\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:48:07.000.197,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Listenes.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Listener.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:52:26.000.778,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Listener.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Listener.Indy.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:52:38.000.408,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.iNDY.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:52:50.000.034,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.iNDY.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.iNDsY.GoogleHTTP4D.pas</Transaction>
+    <Transaction>2021/11/06 22:52:59.000.752,D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.iNDsY.GoogleHTTP4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-http\src\adapters\listener\Adapters.Socket.Request.Indy.GoogleHTTP4D.pas</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\adapters"/>
+    <File Path="src\adapters\listener"/>
+    <File Path="src\adapters\listener\Adapters.Socket.Listener.Indy.GoogleHTTP4D.pas"/>
+    <File Path="src\adapters\listener\Adapters.Socket.Request.Indy.GoogleHTTP4D.pas"/>
+    <File Path="src\adapters\Adapters.HTTP.Net.Google4D.pas"/>
+    <File Path="src\adapters\Adapters.HTTP.Params.Google4D.pas"/>
+    <File Path="src\ports"/>
+    <File Path="src\ports\Ports.HTTP.GoogleHTTP4D.pas"/>
+    <File Path="src\ports\Ports.Socket.GoogleHTTP4D.pas"/>
+    <File Path="src\types"/>
+    <File Path="src\types\Types.HTTP.GoogleHTTP4D.pas"/>
+    <File Path="src\types\Types.Socket.GoogleHTTP4D.pas"/>
+    <File Path="rtl.dcp"/>
+    <File Path="IndySystem.dcp"/>
+    <File Path="IndyProtocols.dcp"/>
+    <File Path="IndyCore.dcp"/>
+  </ProjectSortOrder>
 </BorlandProject>

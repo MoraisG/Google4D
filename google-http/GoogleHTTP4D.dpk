@@ -37,6 +37,10 @@ contains
   Ports.HTTP.GoogleHTTP4D in 'src\ports\Ports.HTTP.GoogleHTTP4D.pas',
   Adapters.HTTP.Net.Google4D in 'src\adapters\Adapters.HTTP.Net.Google4D.pas',
   Adapters.HTTP.Params.Google4D in 'src\adapters\Adapters.HTTP.Params.Google4D.pas',
-  Types.HTTP.GoogleHTTP4D in 'src\types\Types.HTTP.GoogleHTTP4D.pas';
+  Types.HTTP.GoogleHTTP4D in 'src\types\Types.HTTP.GoogleHTTP4D.pas',
+  Ports.Socket.GoogleHTTP4D in 'src\ports\Ports.Socket.GoogleHTTP4D.pas',
+  Types.Socket.GoogleHTTP4D in 'src\types\Types.Socket.GoogleHTTP4D.pas',
+  Adapters.Socket.Request.Indy.GoogleHTTP4D in 'src\adapters\listener\Adapters.Socket.Request.Indy.GoogleHTTP4D.pas',
+  Adapters.Socket.Listener.Indy.GoogleHTTP4D in 'src\adapters\listener\Adapters.Socket.Listener.Indy.GoogleHTTP4D.pas';
 
 end.

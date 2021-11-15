@@ -37,7 +37,7 @@ Type
     function Put(Value: TMultiPartFormData): IHTTPCore; Overload;
     function QueryParams: IHTTPParams;
     function Response: String;
-    function Resource(const AValue : String) : IHTTPCore;
+    function Resource(const AValue: String): IHTTPCore;
     function StatusCode: Integer;
   end;
 
@@ -52,12 +52,11 @@ Type
 
   IHTTPHeader = interface
     ['{38D34CA1-6505-4EBE-AED1-EC39EB67E642}']
-    function AddHeader : IHTTPHeader;
+    function AddHeader: IHTTPHeader;
     function Key(AKey: String): IHTTPHeader;
     function Value(AValue: String): IHTTPHeader;
     function EndHeader: IHTTPCore;
   end;
-
 implementation
 
 end.

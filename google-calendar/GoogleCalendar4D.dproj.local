@@ -12,8 +12,8 @@
     <Transaction>2021/10/30 13:19:52.000.538,=D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas</Transaction>
     <Transaction>2021/10/30 13:20:13.000.878,D:\Desenvolvimento\Fontes\Google4D\google-calendar\Unit1.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\types\Types.GoogleCalendar4D.pas</Transaction>
     <Transaction>2021/10/30 13:51:49.000.171,D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\adapters\Adapters.Google4D.pas=D:\Desenvolvimento\Fontes\Google4D\google-calendar\src\adapters\Adapters.GoogleCalendar4D.pas</Transaction>
-    <Transaction>2021/10/30 14:21:45.597,=IndySystem.dcp</Transaction>
-    <Transaction>2021/10/30 14:21:45.602,=IndyProtocols.dcp</Transaction>
-    <Transaction>2021/10/30 14:21:45.602,=IndyCore.dcp</Transaction>
+    <Transaction>2021/10/30 14:21:45.000.597,=IndySystem.dcp</Transaction>
+    <Transaction>2021/10/30 14:21:45.000.602,=IndyProtocols.dcp</Transaction>
+    <Transaction>2021/10/30 14:21:45.000.602,=IndyCore.dcp</Transaction>
   </Transactions>
 </BorlandProject>
