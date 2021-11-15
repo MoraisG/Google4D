@@ -2,6 +2,10 @@
 *.~47~
 *.~48~
 *.~6~
+google-auth/__history/
+google-auth/src/model/adapters/__history/
+google-auth/src/model/dtos/__history/
+google-auth/src/model/ports/__history/
 google-auth/src/model/adpaters/__history/Model.Adapters.OAuth2Actions.OAuthGoogle4D.pas.~49~
 google-auth/__history/OAuthGoogle4D.dpk.~7~
 google-auth/__history/OAuthGoogle4D.dproj.local.~1~
@@ -139,6 +143,10 @@ google-credentials/__history/CrendentialsGoogle4D.dproj.local.~1~
 google-http/__history/GoogleHTTP4D.dpk.~1~
 google-http/__history/GoogleHTTP4D.dpk.~2~
 google-http/__history/GoogleHTTP4D.dpk.~3~
+google-http/__history/
+google-http/src/adapters/__history/
+google-http/src/ports/__history/
+google-http/src/adapters/listener/__history/
 google-http/src/adapters/__history/Adapters.HTTP.Net.Google4D.pas.~14~
 google-http/src/adapters/__history/Adapters.HTTP.Net.Google4D.pas.~15~
 google-http/src/adapters/__history/Adapters.HTTP.Net.Google4D.pas.~16~
